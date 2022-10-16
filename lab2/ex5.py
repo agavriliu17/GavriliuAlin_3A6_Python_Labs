@@ -1,4 +1,5 @@
-# Write a function that receives as parameter a matrix and will return the matrix obtained by replacing all the elements under the main diagonal with 0 (zero).
+# Write a function that receives as parameter a matrix and will return the matrix obtained by 
+# replacing all the elements under the main diagonal with 0 (zero).
 def zero_under_diagonal(matrix):
     for i in range(len(matrix)):
         for j in range(len(matrix[i])):

@@ -1,6 +1,7 @@
 import numpy as np
+# Write a function that receives as a parameter a variable number of lists and 
+# a whole number x. Return a list containing the items that appear exactly x times in the incoming lists. 
 
-# Write a function that receives as a parameter a variable number of lists and a whole number x. Return a list containing the items that appear exactly x times in the incoming lists. 
 def x_times(*lists, x):
     arrays = np.concatenate(lists)
     uniqueArr = np.unique(arrays)
